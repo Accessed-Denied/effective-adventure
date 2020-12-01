@@ -8,6 +8,6 @@
 
 import Foundation
 
-struct R1EditBySaini {
-    
+enum Count: Int{
+    case first = 1, second
 }

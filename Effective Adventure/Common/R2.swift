@@ -8,6 +8,7 @@
 
 import Foundation
 
-struct R2EditBySaini {
-    
+enum Name: String {
+    case A = "a"
+    case B = "b"
 }
