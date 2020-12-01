@@ -13,6 +13,6 @@ enum Name: String {
     case B = "b"
 }
 
-enum NewEnum {
-    case a1, a2
+struct Sonu {
+    var name: String
 }
