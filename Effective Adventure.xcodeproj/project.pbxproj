@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2296525E2576CC7B00949358 /* R1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2296525D2576CC7B00949358 /* R1.swift */; };
+		229652632576CEBD00949358 /* R2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 229652622576CEBD00949358 /* R2.swift */; };
 		FAE5A2342576CB04000BB1E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE5A2332576CB04000BB1E7 /* AppDelegate.swift */; };
 		FAE5A2362576CB04000BB1E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE5A2352576CB04000BB1E7 /* SceneDelegate.swift */; };
 		FAE5A2382576CB04000BB1E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE5A2372576CB04000BB1E7 /* ViewController.swift */; };
@@ -21,6 +22,7 @@
 
 /* Begin PBXFileReference section */
 		2296525D2576CC7B00949358 /* R1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R1.swift; sourceTree = "<group>"; };
+		229652622576CEBD00949358 /* R2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R2.swift; sourceTree = "<group>"; };
 		FAE5A2302576CB04000BB1E7 /* Effective Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Effective Adventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE5A2332576CB04000BB1E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAE5A2352576CB04000BB1E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +51,7 @@
 			isa = PBXGroup;
 			children = (
 				2296525D2576CC7B00949358 /* R1.swift */,
+				229652622576CEBD00949358 /* R2.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				2296525E2576CC7B00949358 /* R1.swift in Sources */,
 				FAE5A2362576CB04000BB1E7 /* SceneDelegate.swift in Sources */,
 				FAE5A24B2576CCB4000BB1E7 /* s1.swift in Sources */,
+				229652632576CEBD00949358 /* R2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
