@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2296525E2576CC7B00949358 /* R1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2296525D2576CC7B00949358 /* R1.swift */; };
 		FAE5A2342576CB04000BB1E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE5A2332576CB04000BB1E7 /* AppDelegate.swift */; };
 		FAE5A2362576CB04000BB1E7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE5A2352576CB04000BB1E7 /* SceneDelegate.swift */; };
 		FAE5A2382576CB04000BB1E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE5A2372576CB04000BB1E7 /* ViewController.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2296525D2576CC7B00949358 /* R1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R1.swift; sourceTree = "<group>"; };
 		FAE5A2302576CB04000BB1E7 /* Effective Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Effective Adventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE5A2332576CB04000BB1E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAE5A2352576CB04000BB1E7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -43,6 +45,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2296525C2576CC6700949358 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				2296525D2576CC7B00949358 /* R1.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
 		FAE5A2272576CB04000BB1E7 = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +75,7 @@
 				FAE5A2492576CCA4000BB1E7 /* ViewModel */,
 				FAE5A2482576CC9C000BB1E7 /* View */,
 				FAE5A2472576CC94000BB1E7 /* Model */,
+				2296525C2576CC6700949358 /* Common */,
 				FAE5A2332576CB04000BB1E7 /* AppDelegate.swift */,
 				FAE5A2352576CB04000BB1E7 /* SceneDelegate.swift */,
 				FAE5A2372576CB04000BB1E7 /* ViewController.swift */,
@@ -175,6 +186,7 @@
 				FAE5A24F2576CCCA000BB1E7 /* s3.swift in Sources */,
 				FAE5A2342576CB04000BB1E7 /* AppDelegate.swift in Sources */,
 				FAE5A24D2576CCBF000BB1E7 /* s2.swift in Sources */,
+				2296525E2576CC7B00949358 /* R1.swift in Sources */,
 				FAE5A2362576CB04000BB1E7 /* SceneDelegate.swift in Sources */,
 				FAE5A24B2576CCB4000BB1E7 /* s1.swift in Sources */,
 			);
