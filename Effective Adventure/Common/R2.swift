@@ -12,3 +12,7 @@ enum Name: String {
     case A = "a"
     case B = "b"
 }
+
+enum NewEnum {
+    case a1, a2
+}

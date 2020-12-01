@@ -11,3 +11,7 @@ import Foundation
 enum Count: Int{
     case first = 1, second
 }
+
+struct NewStruct {
+    var name
+}
