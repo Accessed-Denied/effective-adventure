@@ -13,6 +13,9 @@
 		FAE5A23B2576CB04000BB1E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE5A2392576CB04000BB1E7 /* Main.storyboard */; };
 		FAE5A23D2576CB05000BB1E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE5A23C2576CB05000BB1E7 /* Assets.xcassets */; };
 		FAE5A2402576CB05000BB1E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE5A23E2576CB05000BB1E7 /* LaunchScreen.storyboard */; };
+		FAE5A24B2576CCB4000BB1E7 /* s1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE5A24A2576CCB4000BB1E7 /* s1.swift */; };
+		FAE5A24D2576CCBF000BB1E7 /* s2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE5A24C2576CCBF000BB1E7 /* s2.swift */; };
+		FAE5A24F2576CCCA000BB1E7 /* s3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE5A24E2576CCCA000BB1E7 /* s3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		FAE5A23C2576CB05000BB1E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAE5A23F2576CB05000BB1E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAE5A2412576CB05000BB1E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAE5A24A2576CCB4000BB1E7 /* s1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s1.swift; sourceTree = "<group>"; };
+		FAE5A24C2576CCBF000BB1E7 /* s2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s2.swift; sourceTree = "<group>"; };
+		FAE5A24E2576CCCA000BB1E7 /* s3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,9 @@
 		FAE5A2322576CB04000BB1E7 /* Effective Adventure */ = {
 			isa = PBXGroup;
 			children = (
+				FAE5A2492576CCA4000BB1E7 /* ViewModel */,
+				FAE5A2482576CC9C000BB1E7 /* View */,
+				FAE5A2472576CC94000BB1E7 /* Model */,
 				FAE5A2332576CB04000BB1E7 /* AppDelegate.swift */,
 				FAE5A2352576CB04000BB1E7 /* SceneDelegate.swift */,
 				FAE5A2372576CB04000BB1E7 /* ViewController.swift */,
@@ -65,6 +74,30 @@
 				FAE5A2412576CB05000BB1E7 /* Info.plist */,
 			);
 			path = "Effective Adventure";
+			sourceTree = "<group>";
+		};
+		FAE5A2472576CC94000BB1E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAE5A24E2576CCCA000BB1E7 /* s3.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FAE5A2482576CC9C000BB1E7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAE5A24A2576CCB4000BB1E7 /* s1.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAE5A2492576CCA4000BB1E7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FAE5A24C2576CCBF000BB1E7 /* s2.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +172,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAE5A2382576CB04000BB1E7 /* ViewController.swift in Sources */,
+				FAE5A24F2576CCCA000BB1E7 /* s3.swift in Sources */,
 				FAE5A2342576CB04000BB1E7 /* AppDelegate.swift in Sources */,
+				FAE5A24D2576CCBF000BB1E7 /* s2.swift in Sources */,
 				FAE5A2362576CB04000BB1E7 /* SceneDelegate.swift in Sources */,
+				FAE5A24B2576CCB4000BB1E7 /* s1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
