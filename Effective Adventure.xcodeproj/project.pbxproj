@@ -19,6 +19,9 @@
 		FAE5A24B2576CCB4000BB1E7 /* s1.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE5A24A2576CCB4000BB1E7 /* s1.swift */; };
 		FAE5A24D2576CCBF000BB1E7 /* s2.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE5A24C2576CCBF000BB1E7 /* s2.swift */; };
 		FAE5A24F2576CCCA000BB1E7 /* s3.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE5A24E2576CCCA000BB1E7 /* s3.swift */; };
+		FAE5A2512576CEA5000BB1E7 /* s4.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE5A2502576CEA5000BB1E7 /* s4.swift */; };
+		FAE5A2532576CEB1000BB1E7 /* s5.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE5A2522576CEB1000BB1E7 /* s5.swift */; };
+		FAE5A2552576CEBA000BB1E7 /* s6.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE5A2542576CEBA000BB1E7 /* s6.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		FAE5A24A2576CCB4000BB1E7 /* s1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s1.swift; sourceTree = "<group>"; };
 		FAE5A24C2576CCBF000BB1E7 /* s2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s2.swift; sourceTree = "<group>"; };
 		FAE5A24E2576CCCA000BB1E7 /* s3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s3.swift; sourceTree = "<group>"; };
+		FAE5A2502576CEA5000BB1E7 /* s4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s4.swift; sourceTree = "<group>"; };
+		FAE5A2522576CEB1000BB1E7 /* s5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s5.swift; sourceTree = "<group>"; };
+		FAE5A2542576CEBA000BB1E7 /* s6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = s6.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				FAE5A24E2576CCCA000BB1E7 /* s3.swift */,
+				FAE5A2502576CEA5000BB1E7 /* s4.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -105,6 +112,7 @@
 			children = (
 				FAE5A24A2576CCB4000BB1E7 /* s1.swift */,
 				229652652576CFE600949358 /* R3.swift */,
+				FAE5A2522576CEB1000BB1E7 /* s5.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -113,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				FAE5A24C2576CCBF000BB1E7 /* s2.swift */,
+				FAE5A2542576CEBA000BB1E7 /* s6.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -192,9 +201,12 @@
 				FAE5A24F2576CCCA000BB1E7 /* s3.swift in Sources */,
 				229652662576CFE600949358 /* R3.swift in Sources */,
 				FAE5A2342576CB04000BB1E7 /* AppDelegate.swift in Sources */,
+				FAE5A2532576CEB1000BB1E7 /* s5.swift in Sources */,
+				FAE5A2552576CEBA000BB1E7 /* s6.swift in Sources */,
 				FAE5A24D2576CCBF000BB1E7 /* s2.swift in Sources */,
 				2296525E2576CC7B00949358 /* R1.swift in Sources */,
 				FAE5A2362576CB04000BB1E7 /* SceneDelegate.swift in Sources */,
+				FAE5A2512576CEA5000BB1E7 /* s4.swift in Sources */,
 				FAE5A24B2576CCB4000BB1E7 /* s1.swift in Sources */,
 				229652632576CEBD00949358 /* R2.swift in Sources */,
 			);
