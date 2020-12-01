@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+struct s6 {
+    var code: Int
+    var message: String
+}
